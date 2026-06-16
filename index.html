@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minhas Séries</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📺 Organizador de Séries</h1>
+
+    <div class="form">
+      <input type="text" id="serieNome" placeholder="Nome da série">
+      <input type="number" id="episodio" placeholder="Último episódio assistido">
+      <button onclick="adicionarSerie()">Salvar</button>
+    </div>
+
+    <div id="listaSeries"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
